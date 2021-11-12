@@ -24,7 +24,7 @@ jobs:
         run: yarn
 
       - name: Create Release Pull Request
-        uses: changesets/action@master
+        uses: team-xquare/action@1.0.0
         with:
           version: yarn changeset version
         env:
