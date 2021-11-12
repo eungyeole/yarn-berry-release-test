@@ -1,0 +1,7 @@
+{
+  "name": "release-test",
+  "packageManager": "yarn@3.1.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
